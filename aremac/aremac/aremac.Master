@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="aremac.master.cs" Inherits="aremac.aremac" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../stylesheet.css" rel="stylesheet" />
+    <title>aremac.</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <header>
+            <a href="default.aspx">aremac.</a>
+        </header>
+
+        <nav><ul>
+            <li><a href="default.aspx">Home</a></li>
+            <li><a href="about.aspx">About Us</a></li>
+            <li><a href="products.aspx">Products</a></li>
+            <li><a href="contact.aspx">Contact Us</a></li>
+            <li><a href="#">Payment</a></li>
+        </ul></nav>
+
+        <asp:ContentPlaceHolder ID="content" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+
+    <footer>© 2017 | aremac.</footer>
+</body>
+</html>
