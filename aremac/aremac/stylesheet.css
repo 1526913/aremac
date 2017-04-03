@@ -51,6 +51,7 @@ footer {
     color: #e0ffff;
 }
 
+/* Contact Us */
 .container {
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 8px;
@@ -104,4 +105,33 @@ input[type=submit] {
 
 input[type=submit]:hover {
     font-weight:bolder;
+}
+
+/* Home page */
+.pic {
+    background-color: #e0ffff;
+    display:inline-block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.pic1 {
+    background-color: #e0ffff;
+    display:inline-block;
+    margin-top: 35px; 
+    margin-bottom: 35px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.pic2 {
+    background-color: #e0ffff;
+    display:inline-block;
+    margin-top: 35px; 
+    margin-bottom: 50px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+h3 {
+    margin-left: 315px;
 }

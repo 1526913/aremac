@@ -66,8 +66,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="canon1.jpg" />
+    <Content Include="canon2.jpg" />
+    <Content Include="canon3.jpg" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
+    <Content Include="fujifilm1.jpg" />
+    <Content Include="fujifilm2.jpg" />
+    <Content Include="fujifilm3.jpg" />
+    <Content Include="nikon1.jpg" />
+    <Content Include="nikon2.jpg" />
+    <Content Include="nikon3.jpg" />
     <Content Include="packages.config" />
     <Content Include="aremac.Master" />
     <None Include="Web.Debug.config">

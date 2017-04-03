@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+
     <link href="../stylesheet.css" rel="stylesheet" />
     <title>aremac.</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
