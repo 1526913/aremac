@@ -3,6 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
 
+    <h2>Contact</h2>
+
     <div class="container">
     
     <form>
@@ -29,5 +31,6 @@
     </form>
 
     </div>
+
 
 </asp:Content>
