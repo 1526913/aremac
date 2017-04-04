@@ -76,6 +76,7 @@
     <Content Include="fujifilm2.jpg" />
     <Content Include="fujifilm3.jpg" />
     <Content Include="login.aspx" />
+    <Content Include="map.png" />
     <Content Include="nikon1.jpg" />
     <Content Include="nikon2.jpg" />
     <Content Include="nikon3.jpg" />

@@ -1,10 +1,10 @@
 ﻿body {
-    background-color: #e0ffff;
+    background-color: #f8f8ff;
 }
 
 header {
 	padding: 16px;
-	color: #e0ffff;
+	color: #f8f8ff;
 	background-color: #000000;
 	text-align: center;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,7 +14,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #e0ffff;
+    color: #f8f8ff;
 }
 
 ul {
@@ -31,10 +31,10 @@ li {
 
 li a {
 	text-decoration: none;
-	color: #e0ffff;
+	color: #f8f8ff;
 }
 li a:hover {
-	color: #e0ffff;
+	color: #f8f8ff;
 	font-weight: bolder;
 }
 
@@ -48,7 +48,7 @@ footer {
     text-align: center;
     font-family:"Trebuchet MS", Helvetica, sans-serif;
     font-size: 10px;
-    color: #e0ffff;
+    color: #f8f8ff;
 }
 
 /* Contact Us */
@@ -57,7 +57,7 @@ footer {
     border-radius: 8px;
     width: 40%;
     height: 500%;
-    margin-left: 15px;
+    margin-left: 30px;
     margin-top: 35px;
     margin-bottom: 65px;
     padding: 25px;
@@ -112,9 +112,23 @@ input[type=submit]:hover {
     font-weight:bolder;
 }
 
+.map {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    width: 40%;
+    height: 500%;
+    margin-left: 650px;
+    margin-top: -529px;
+    margin-bottom: 65px;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.4);
+    position: center;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
 /* Home page */
 .pic {
-    background-color: #e0ffff;
+    background-color: #f8f8ff;
     display:inline-block;
     margin-top: 35px;
     margin-bottom: 35px;
@@ -122,15 +136,15 @@ input[type=submit]:hover {
 }
 
 .pic1 {
-    background-color: #e0ffff;
+    background-color: #f8f8ff;
     display:inline-block;
     margin-top: 35px; 
     margin-bottom: 35px;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;s
 }
 
 .pic2 {
-    background-color: #e0ffff;
+    background-color: #f8f8ff;
     display:inline-block;
     margin-top: 35px; 
     margin-bottom: 50px;

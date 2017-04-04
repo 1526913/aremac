@@ -32,5 +32,12 @@
 
     </div>
 
+    <div class="map">
+
+        <h2>Find Us</h2>
+        <img src="map.png" style="width: 480px; height: 341px; margin-left: 10px;">
+
+    </div>
+
 
 </asp:Content>
