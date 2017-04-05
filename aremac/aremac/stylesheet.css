@@ -33,6 +33,7 @@ li a {
 	text-decoration: none;
 	color: #f8f8ff;
 }
+
 li a:hover {
 	color: #f8f8ff;
 	font-weight: bolder;
@@ -48,6 +49,11 @@ footer {
     text-align: center;
     font-family:"Trebuchet MS", Helvetica, sans-serif;
     font-size: 10px;
+    color: #f8f8ff;
+}
+
+a {
+    text-decoration: none;
     color: #f8f8ff;
 }
 
