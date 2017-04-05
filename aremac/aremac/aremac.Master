@@ -20,11 +20,11 @@
 
         <nav><ul>
             <li><a href="default.aspx">Home</a></li>
-            <li><a href="products.aspx">Products</a></li>
-            <li><a href="login.aspx">Login</a></li>
-            <li><a href="account.aspx">Account</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Account</a></li>
             <li><a href="contact.aspx">Contact Us</a></li>
-            <li><a href="payment.aspx">Payment</a></li>
+            <li><a href="#">Payment</a></li>
         </ul></nav>
 
         <asp:ContentPlaceHolder ID="content" runat="server">
