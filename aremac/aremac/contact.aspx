@@ -6,28 +6,25 @@
     <h2>Contact</h2>
 
     <div class="container">
-    
-    <form>
 
         <h4>Contact Us</h4>
 
-        <p>Name: 
+        <asp:Label ID="lblname" runat="server" Text="Name:"></asp:Label>
         <br />
-        <input id="txtname" type="text" tabindex="1" required>
-        </p>
+        <asp:TextBox ID="txtname" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="txname" runat="server" ErrorMessage="Please fill in" ControlToValidate="txtname" ForeColor="Red"></asp:RequiredFieldValidator>
         
-        <p>Email: 
+        <asp:Label ID="lblemail" runat="server" Text="Email:"></asp:Label>
         <br />
-        <input id="txtemail" type="email" tabindex="2" required>
-        </p>
-
+        <asp:TextBox ID="txtemail" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="txemail" runat="server" ErrorMessage="Please fill in" ControlToValidate="txtemail"></asp:RequiredFieldValidator>
+        
         <asp:Label ID="lblmsg" runat="server" Text="Message:" AssociatedControlID="txtmsg"></asp:Label> 
         <br />
         <asp:TextBox ID="txtmsg" runat="server" TextMode="MultiLine"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="txmsg" runat="server" ErrorMessage="Please fill in" ControlToValidate="txtmsg" ForeColor="Red"></asp:RequiredFieldValidator>
         
-        <p><input id="btnsubmit" type="submit" value="Submit" /></p>
-
-    </form>
+        <asp:Button ID="btnsubmit" runat="server" Text="Submit" OnClick="btnsubmit_Click" />
 
     </div>
 
@@ -36,18 +33,10 @@
         <h4>Find Us</h4>
         
         <div id="ggleMap" style="width:480px;height:341px; margin-left:10px;"></div>
-        <script>
-            function myMap() {
-            var mapProp= {
-                center:new google.maps.LatLng(4.885688,114.931691),
-                zoom:19,
-                };
-            var map=new google.maps.Map(document.getElementById("ggleMap"),mapProp);
-            }
-        </script>
+        <script src="map.js"></script>
 
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1xdfQZ9ukC6tDfG3w8tocuTRWIsH-q5M&callback=myMap"></script>
-
+      
     </div>
 
 
