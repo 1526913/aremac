@@ -65,7 +65,7 @@ a {
     height: 500%;
     margin-left: 30px;
     margin-top: 35px;
-    margin-bottom: 65px;
+    margin-bottom: 100px;
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.4);
     position: center;
@@ -124,8 +124,8 @@ input[type=submit]:hover {
     width: 40%;
     height: 500%;
     margin-left: 650px;
-    margin-top: -529px;
-    margin-bottom: 65px;
+    margin-top: -555px;
+    margin-bottom: 100px;
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.4);
     position: center;
@@ -160,3 +160,124 @@ input[type=submit]:hover {
 h3 {
     margin-left: 315px;
 }
+
+/* Login page */
+.container1 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    width: 500px;
+    height: 230px;
+    margin-left: 225px;
+    margin-top: 35px;
+    margin-bottom: 100px;
+    padding: 30px 150px 100px 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.4);
+    position: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+.a1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+.a1:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type=email], [type=password], select {
+    width: 500px;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        font-weight: bolder;
+    }
+
+    /* Register */
+.container2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    width: 500px;
+    height: 315px;
+    margin-left: 225px;
+    margin-top: 35px;
+    margin-bottom: 100px;
+    padding: 30px 150px 100px 150px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.4);
+    position: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type=text], [type=email], [type=password], select {
+    width: 500px;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        font-weight: bolder;
+    }
